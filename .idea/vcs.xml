@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Bai7/untitled" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/WebstormProjects/bai2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/WebstormProjects/untitled" vcs="Git" />

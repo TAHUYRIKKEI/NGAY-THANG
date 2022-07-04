@@ -5,19 +5,22 @@
     <title>Title</title>
 </head>
 <body>
-<p id="diem" >diemTrungBinh</p>
-diem toan<input id="toan" type="text" checked><br><br>
-diem ly <input id="ly" type="text" checked><br><br>
-diem hoa<input id="hoa" type="text" checked><br><br>
-<button type="button"onclick="diem" >diem</button>
+
+<h1>diem trung binh</h1>
+<input id="toan" type="text">toan<br>
+<input id="ly" type="text">ly<br>
+<input id="hoa" type="text">hoa<br>
+<button onclick="diemTrungBinh()">ket qua</button>
+<p id="hienthi">hien thi k :</p>
 <script>
-    function diem() {
-        let toan = +document.getElementById('toan').value
-        let ly  = +document.getElementById('ly').value
-        let hoa = +document.getElementById('hoa').value
-        let diemTrungBinh=(toan+ly+hoa)/3
-        document.getElementById('diem').innerHTML='diem trung binh ' + 5;
+    function diemTrungBinh() {
+      let toan =+document.getElementById('toan').value
+      let ly =+document.getElementById('ly').value
+      let hoa =+document.getElementById('hoa').value
+        let dtb =(toan+ly+hoa)/3
+        document.getElementById('hienthi').innerHTML = dtb
     }
 </script>
+
 </body>
 </html>
